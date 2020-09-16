@@ -18,7 +18,6 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -27,7 +26,6 @@ class MyApp extends StatelessWidget {
         backgroundColor: Color(0xFE232123),
         body: SafeArea(
           child: Column(
-            // mainAxisAlignment: MainAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
@@ -39,7 +37,7 @@ class MyApp extends StatelessWidget {
                 backgroundColor: kPrimaryColor,
                 child: CircleAvatar(
                   radius: 85.0,
-                  backgroundImage: AssetImage('images/formal-pic.jpg'),
+                  backgroundImage: AssetImage('images/joker.jpg'),
                 ),
               ),
               Expanded(
